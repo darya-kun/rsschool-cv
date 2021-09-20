@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="./assets/img/cv-icon.ico">
+        <title>Darya Kunkevich CV</title>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header" id="header">
+            <nav class="nav bd-container">
+                <span class="nav__name">CV</span>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <i class="nav__icon bx bx-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="nav__icon bx bx-user"></i>
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="nav__icon bx bx-receipt"></i>
+                                <span>Skills</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="nav__icon bx bx-book"></i>
+                                <span>Education</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="nav__icon bx bx-briefcase-alt"></i>
+                                <span>Experience</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#code" class="nav__link">
+                                <i class="nav__icon bx bx-code-block" ></i>
+                                <span>Code example</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#language" class="nav__link">
+                                <i class="nav__icon bx bx-chat"></i>
+                                <span>English</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main bd-container">
+            <div class="resume" id="area-cv">
+                <aside class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bg-grid">
+                                <img class="home__img" src="./assets/img/avatar_s_hat.png" width="120" height="120" alt="avatar Darya Kunkevich">
+                                <h1 class="home__title">Darya <b>Kunkevich</b></h1>
+                                <h3 class="home__profession">Frontend developer</h3>
+                                <!-- Button to download cv saved in the pdf folder -->
+                                <div>
+                                    <a class="home__button-movil" href="./assets/pdf/KunkevichCV.pdf" download="">Download</a>
+                                </div>
+                            </div>
+                            <ul class="home__address bd-grid">
+                                <li class="home__information">
+                                    <i class="home__icon bx bx-map"></i>
+                                    Minsk, Belarus
+                                </li>
+                                <li class="home__information">
+                                    <i class="home__icon bx bx-envelope"></i>
+                                    <a class="home__link" href="mailto:kunkevich.darya@gmail.com">kunkevich.darya@gmail.com</a>
+                                </li>
+                                <li class="home__information">
+                                    <i class="home__icon bx bxl-linkedin-square"></i>
+                                    <a class="home__link" href="https://www.linkedin.com/in/darya-kunkevich-drazdouskaya-258297b5/" target="_blank">LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Button to generate and download pdf -->
+                        <a class="generate-pdf" href="./assets/pdf/KunkevichCV.pdf" download="">
+                            <i class="bx bx-download" title="Generate pdf" id="resume-button"></i>
+                        </a>
+                    </section>
+                    <!--========== ABOUT ==========-->
+                    <section class="about section" id="about">
+                        <h2 class="section-title">About</h2>
+                        <p class="about__description">I"m working at Beltelecom as a web designer and HTML developer for about two years. Still in love with semantics and the possibilities of creating accessible and user-friendly interfaces. For developing myself as a truly frontend developer I need to go deep into practicing Javascript and its frameworks, so here I am — rolling scopes student.</p>
+                        <p class="about__description">Happy to become a part of that great community!</p>
+                    </section>
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__list">
+                                <li class="skills__item">
+                                    HTML5, CSS3 (Bootstrap, Sass, Less, BEM, semantics, accessibility, cross-browser compatibility)
+                                </li>
+                                <li class="skills__item">
+                                    JavaScript Basics
+                                </li>
+                                <li class="skills__item">
+                                    CMS Drupal, WordPress
+                                </li>
+                                <li class="skills__item">
+                                    Git, GitHub
+                                </li>
+                                <li class="skills__item">
+                                    Figma, Sketch, Zeplin, Adobe Photoshop
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <footer class="footer-desktop">
+                        <div class="footer__content">
+                            <a class="footer__link" href="https://github.com/darya-kun" target="_blank">GitHub</a>
+                            <div class="footer__year">2021</div>
+                            <a class="footer__rs" href="https://rs.school/js/">
+                                <img class="footer__rs-logo" src="./assets/img/logo-rs_school_js.svg" width="70" alt="Rolling scopes school logo">
+                            </a>
+                        </div>
+                    </footer>
+                </aside>
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="experience__container bd-grid">
+                            <div class="experience__data">
+                                <h3 class="experiance__title">HTML developer</h3>
+                                <span class="experience__company">
+                                    From 2019 to present | Beltelecom
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__timeline">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a class="education__link" href="https://assets.htmlacademy.ru/certificates/intensive/107/896583.pdf?1553674731&_ga=2.74309586.1178568861.1626437427-322172810.1626437427">Professional HTML&CSS, level 1</a>
+                                    </h3>
+                                    <span class="education__studies">HTML Academy</span>
+                                    <span class="education__date">2019</span>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="education__content">
+                                <div class="education__timeline">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a class="education__link" href="https://assets.htmlacademy.ru/certificates/intensive/113/896583.pdf?1560940891&_ga=2.74309586.1178568861.1626437427-322172810.1626437427">Professional HTML&CSS, level 2</a>
+                                    </h3>
+                                    <span class="education__studies">HTML Academy</span>
+                                    <span class="education__date">2019</span>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="education__content">
+                                <div class="education__timeline">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a class="education__link" href="https://assets.htmlacademy.ru/certificates/intensive/119/896583.pdf?1565557070&_ga=2.74309586.1178568861.1626437427-322172810.1626437427">Professional Javascript, level 1</a>
+                                    </h3>
+                                    <span class="education__studies">HTML Academy</span>
+                                    <span class="education__date">2019</span>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="education__content">
+                                <div class="education__timeline">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a class="education__link" href="https://www.freecodecamp.org/certification/darya-d/responsive-web-design">Responsive Web Design</a>
+                                        </h3>
+                                    <span class="education__studies">freeCodeCamp </span>
+                                    <span class="education__date">2020</span>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="education__content">
+                                <div class="education__timeline">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a class="education__link" href="https://testprovider.com/ru/search-certificate/tp22374473">Web testing</a>
+                                    </h3>
+                                    <span class="education__studies">TestProvider (ITVDN)</span>
+                                    <span class="education__date">2019</span>
+                                </div>
+                            </div>
+                            <!-- 6 -->
+                            <div class="education__content">
+                                <div class="education__timeline">
+                                    <span class="education__rounder"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a class="education__link" href="https://university.atlassian.com/student/award/fJigthH8yeDPJLxkbQUpoTHY">Jira Fundamentals</a>
+                                    </h3>
+                                    <span class="education__studies">Atlassian University</span>
+                                    <span class="education__date">2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== CODE EXAMPLE ==========-->
+                    <section class="code section" id="code">
+                        <h2 class="section-title">Code example</h2>
+                        <div class="code__container bd-grid">
+                            <p class="code__description"><b>Even or Odd Kata from <a class="code__link" href="https://www.codewars.com/kata/53da3dbb4a5168369a0000fe">codewars.com</a>:</b> create a function that takes an integer as an argument and returns “Even” for even numbers or “Odd” for odd numbers.</p>
+                            <pre class="code__example">
+<code class="javascript">function even_or_odd(number) {
+    const even_or_odd = (number) => number % 2 ? "Odd" : "Even";
+}</code></pre>
+        
+                        </div>
+                    </section>
+                    <!--========== LANGUAGE ==========-->
+                    <section class="language section" id="language">
+                        <h2 class="section-title">English</h2>
+                        <div class="language__container bd-grid">
+                            <p class="language__description">I've got C1 Advanced level after taking <a class="language__link" href="https://prnt.sc/1sk6sva" target="_blank">the EF SET Quick check test.</a></p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer class="footer-mobile">
+                <div class="footer__content">
+                    <a class="footer__link" href="https://github.com/darya-kun" target="_blank">GitHub</a>
+                    <div class="footer__year">2021</div>
+                    <a class="footer__rs" href="https://rs.school/js/">
+                        <img class="footer__rs-logo" src="./assets/img/logo-rs_school_js.svg" width="70" alt="Rolling scopes school logo">
+                    </a>
+                </div>
+            </footer>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script>
+        console.log("Самооценка - 130")
+        </script>
+    </body>
+</html>
